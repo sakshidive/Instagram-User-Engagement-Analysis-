@@ -35,8 +35,9 @@ The dataset **“instagram_db”** consist of 6 tables:
   5. Tags: Details about tags (id, aatag_name, created_at).
   6. Photo Tags: Tags associated with photos (photo_tags, photo_id, tag_id).
 
-## SQL Queries for Instagram User Analysis
-(https://github.com/sakshidive/Instagram-User-Engagement-Analysis-/blob/main/Instagram_user_analysis_queries.sql)
+## [SQL Queries for Instagram User Analysis](https://github.com/sakshidive/Instagram-User-Engagement-Analysis-/blob/main/Instagram_user_analysis_queries.sql)
+
+## [Instagram User Analysis Presentation PDF](https://github.com/sakshidive/Instagram-User-EngagementAnalysis-/blob/main/Instagram%20User%20Engagement%20Analysis.pdf)
 
 ## Insights
 - **User Engagement**: Identified the **5 Most Active Users**, potential influencers contributing significantly to platform activity.
