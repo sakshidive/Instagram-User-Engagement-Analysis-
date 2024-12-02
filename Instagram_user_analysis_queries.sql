@@ -10,7 +10,7 @@ left join users u on p.user_id = u.id
 group by u.id , u.username 
 order by count(p.image_url) desc limit 5 ;
 
--- 2. Top 5 users who have the highest number of likes on a single photo?
+-- 2. User who have the highest number of likes on a single photo
 
 select u.username , l.photo_id from likes l
 left join photos p on l.photo_id = p.id
@@ -46,8 +46,8 @@ left join photos p on u.id = p.user_id
 where p.image_url is null 
 order by username ;
 
--- 7.Identify users exhibiting potential bot-like or fake account behavior base 
--- on patterns of excessive or automated engagement(such as consistent like on every photo)
+-- 7.Identify users exhibiting potential bot-like or fake account behavior base on patterns of excessive or 
+-- automated engagement(such as consistent like on every photo)
 
 select * from users , likes ;
 
