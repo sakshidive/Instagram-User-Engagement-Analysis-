@@ -35,23 +35,25 @@ The dataset **“instagram_db”** consist of 6 tables:
   5. Tags: Details about tags (id, aatag_name, created_at).
   6. Photo Tags: Tags associated with photos (photo_tags, photo_id, tag_id).
 
+## SQL Queries
+
+
 ## Insights
-- **User Engagement**: Identified the **5 Most Active Users** contributing significantly to platform engagement, suggesting potential influencers or brand ambassadors.
-- **Content Trends**: **Smile, Fun, Party, Concert and Drunk** are the tags associated with most liked photo whereas **Smile, Beach, Party, Fun & Concert** are 5 most commonly used tags which highlights trends in 
-    user preferences which can be actionable insights for content optimization.
-- **User Behavior**: Detected **13 Users** exhibiting **Bot-like or Fake Account Behavior** enabling the platform to take action against fake accounts which can help to maintain the platform's integrity.
-- **Registration Trends**: **Thursday and Sunday** are the peak days for registrations informing targeted marketing campaigns and opportunities for growth.
-- **Inactive Users**: Identified **26 Inactive Users**, revealing opportunities for reactivation to encourage user sign-ups.
+- **User Engagement**: Identified the **5 Most Active Users**, potential influencers contributing significantly to platform activity.
+- **Content Trends**: **Smile, Fun, Party, Concert and Drunk** are the tags associated with most liked photo whereas **Smile, Beach, Party, Fun & Concert** are 5 most commonly used tags which highlights trends in user preferences which can be actionable insights for content optimization.
+- **User Behavior**: Detected **13 Bot-like or Fake Accounts** improving trust and engagement metrics.
+- **Registration Trends**: **Thursday and Sunday** are peak days for user sign-ups, highlighting opportunities for targeted campaigns.
+- **Inactive Users**: Identified **26 Inactive Users**, revealing opportunities for reactivation stratergies.
 
 ## Recommendations
-- **Leverage Influencers**: Engage the most active users through exclusive features, rewards, or collaborations to promote content and maintain their activity and leverage their influence.
+- **Leverage Influencers**: Engage the most active users with exclusive features, rewards, or collaborations to promote content.
 - **Optimize Content Strategy**: Encourage the use of popular tags and themes to boost engagement.
-- **Mitigate Fake Accounts**: Implement stricter bot detection mechanisms or verification processes to maintain platform authenticity.
-- **Enhance User Activation**: Design campaigns targeting inactive users to encourage participation reach out to them with engagement prompts, tutorials, or incentives to encourage their activity.
-- Schedule promotional ad campaigns and onboarding processes around the peak registration days.
+- **Mitigate Fake Accounts**: Introduce stricter bot detection mechanisms or verification processes to maintain platform authenticity.
+- **Enhance User Activation**: Target inactive users to encourage participation with engagement prompts, tutorials, or incentives to encourage their activity.
+- **Schedule Marketing Campaigns**: Plan promotional ad campaigns and onboarding processes around the peak registration days.
 
 ## Conclusion
-This project demonstrates how SQL can extract actionable insights to optimize engagement, content strategies, and platform integrity. By analyzing user behavior and trends, we identified growth opportunities and highlighted the critical role of data-driven decisions in enhancing user experience and supporting business success. This analysis showcases my ability to use SQL to deliver meaningful insights that supports data-driven decisions and business growth. 
+This project demonstrates how SQL can extract actionable insights to optimize engagement, improve content strategies, and maintain platform integrity. By analyzing user behavior and trends, findings highlights growth opportunities and showcases my ability to use SQL to deliver meaningful insights supporting data-driven decisions and business growth. 
 
 
 
